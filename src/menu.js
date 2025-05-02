@@ -19,6 +19,7 @@ function createMenuItem(foodImg, foodPrice, foodNames) {
     price.classList.add("item-price")
 
     const foodName = document.createElement("h1")
+    foodName.classList.add("food-name")
     foodName.textContent = foodNames
 
     const foodText = document.createElement("div")
